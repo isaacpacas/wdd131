@@ -1,4 +1,4 @@
-const PI=3.14;
+/*const PI=3.14;
 let radius=3;
 let area = 0;
 
@@ -7,5 +7,16 @@ console.log("Area1", area);
 
 radius = 4;
 area= radius*radius*PI;
-console.log("Area2", area);
+console.log("Area2", area);*/
 
+/*creating a function*/
+
+const PI=3.14;
+let area = 0;
+
+function circleArea(radius){
+    const area=radius * PI;
+}
+
+area = circleArea(3);
+console.log(area);
